@@ -2,27 +2,14 @@
 
 
 <hr ><h2 class="text-primary">Demo Product</h2><hr />
+<p>Favorites Total : @SelectedFavoriteCount</p>
+<p>Last Selected Favorite : @LastProductSelectedName</p>
 <div class="border p-2 mt-2" style="background-color:azure">
 <div class="row">
-        @foreach(var product in Products)
+        @foreach (var product in Products)
         {
-            <div class="bg-light border p-2 col-5">
-                <h4 class="text-secondary">Product - @product.Id</h4>
-                Name - @product.Name <br/>
-                Show Properties : 
-                <input type="checkbox" @bind-value="@product.IsActive" checked="@(product.IsActive?"checked":null)"/>
-
-                @if (product.IsActive)
-                {
-                    @foreach ( var productProperty in product.ProductProperties)
-                    {
-                        <p>@productProperty.Key - @productProperty.Value</p>
-                    }
-                }
-                <br/>
-                <input type="button" class="btn btn-danger" style="width:100px;" value="Delete"/>
-                     <input type="button" class="btn btn-success" style="width:100px;" value="Edit"/>
-            </div>
+              <_IndividualProduct Product="@product"OnFavoriteUpdated="CountFavorites"
+                 OnLastSelectedProductChange="SelectedProductUpdate"> </_IndividualProduct>
         }
     </div>
 
@@ -32,11 +19,17 @@
     // Create an empty list to hold the products
     List<Demo_Products> Products = new();
 
+    //how many favorites selected
+    private int SelectedFavoriteCount { get; set; } = 0;
 
+    //string for last product selected 
+    private string LastProductSelectedName { get; set; }
 
     // This method is called when the component is initialized
     protected override void OnInitialized()
     {
+
+
         // Add a new product to the list with a specific set of product properties
         Products.Add(new()
             {
@@ -66,6 +59,26 @@
                 new Demo_ProductProp { Id = 3, Key = "Color", Value = "White" }
             }
             });
+    }
+
+    //count the favorites 
+    protected void CountFavorites(bool isSelected)
+    {
+        if (isSelected)
+        {
+            SelectedFavoriteCount++;
+        }
+        else
+        {
+            SelectedFavoriteCount--;
+        }
+    }
+
+
+    //count the favorites 
+    protected void SelectedProductUpdate(string productName)
+    {
+        LastProductSelectedName = productName;
     }
 
 }
