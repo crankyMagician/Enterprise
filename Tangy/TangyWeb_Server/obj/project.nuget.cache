@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AYsuGbTXrncPaepFJrRG3E3RNZGX9D4VUpmlI4L89nfUA3zawR2+vPr23Vg5rMkXW2IhbELKB++JVV1yEXwmMw==",
+  "dgSpecHash": "b0K+5drQJFdRG+yAJoeRUMToN2msBVshC8E3exHRoWbPmsjeVV0r+Ss6TUj9VOzx4Izjz9qgI2FvcGPdvKZ2Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Server\\TangyWeb_Server.csproj",
+  "projectFilePath": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\TangyWeb_Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

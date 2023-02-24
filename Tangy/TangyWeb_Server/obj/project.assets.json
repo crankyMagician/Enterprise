@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sam\\.nuget\\packages\\": {}
+    "C:\\Users\\brian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Server\\TangyWeb_Server.csproj",
+      "projectUniqueName": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\TangyWeb_Server.csproj",
       "projectName": "TangyWeb_Server",
-      "projectPath": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Server\\TangyWeb_Server.csproj",
-      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Server\\obj\\",
+      "projectPath": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\TangyWeb_Server.csproj",
+      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\Tangy_Models\\Tangy_Models.csproj": {
-              "projectPath": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\Tangy_Models\\Tangy_Models.csproj"
+            "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\Tangy_Models\\Tangy_Models.csproj": {
+              "projectPath": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\Tangy_Models\\Tangy_Models.csproj"
             }
           }
         }

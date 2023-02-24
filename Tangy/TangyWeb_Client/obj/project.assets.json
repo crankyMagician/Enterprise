@@ -1762,19 +1762,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sam\\.nuget\\packages\\": {}
+    "C:\\Users\\brian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Client\\TangyWeb_Client.csproj",
+      "projectUniqueName": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Client\\TangyWeb_Client.csproj",
       "projectName": "TangyWeb_Client",
-      "projectPath": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Client\\TangyWeb_Client.csproj",
-      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam\\Desktop\\C#\\Blazor\\WASM\\Enterprise\\Tangy\\TangyWeb_Client\\obj\\",
+      "projectPath": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Client\\TangyWeb_Client.csproj",
+      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

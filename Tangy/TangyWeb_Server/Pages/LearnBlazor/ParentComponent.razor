@@ -1,0 +1,17 @@
+﻿@page "/learnBlazor/parentcomponent"
+<h3>ParentComponent</h3>
+<_ChildComponent OnButtonClick="ShowMessage" Title="Inherited from Parent Component">
+    Render Fragment from parent component
+    
+</_ChildComponent>
+
+<p>@messageText</p>
+@code {
+    public string messageText ="";
+
+    private void ShowMessage()
+    {
+        messageText = "Button clicked";
+
+    }
+}
