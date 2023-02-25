@@ -1,23 +1,41 @@
 ﻿
 <div>
+    <!-- Display an info message with the value of the Title parameter -->
     <div class="alert alert-info">@Title</div>
 
+    <!-- Display either the DangerChildContent or the ChildContent parameter in a green message box -->
     <div class="alert alert-success">
-        @if (ChildContent != null)
+        @if (@DangerChildContent != null)
         {
-            <span>@ChildContent </span>
+            <span>@DangerChildContent </span>
+        }
+        else
+        {
+            @if (ChildContent != null)
+            {
+                <span>@ChildContent </span>
+            }
         }
     </div>
 
-    <button class="btn" @onclick="OnButtonClick">Click this button</button>
+    <!-- Display a red button that triggers the OnButtonClick event when clicked -->
+    <button class="btn btn-danger" @onclick="OnButtonClick">Click this button</button>
+
+    <_GrandChildComponent ></_GrandChildComponent>
 </div>
+
 @code {
+    
     [Parameter]
-    public string Title { get; set; }
+    public string Title { get; set; } // The message to display in the info box
 
     [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    public RenderFragment ChildContent { get; set; } // The content to display in the green box
 
     [Parameter]
-    public EventCallback OnButtonClick { get; set; }
+    public RenderFragment DangerChildContent { get; set; } // The content to display in the green box with danger style
+
+    [Parameter]
+    public EventCallback OnButtonClick { get; set; } // The event to call when the button is clicked
 }
+

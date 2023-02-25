@@ -7,6 +7,9 @@
     <!-- Displaying the name of the product -->
     Name - @Product.Name <br />
 
+    <!--REnder fragment test-->
+    <p>REnder Fragment passed. #1: @FirstFragment, #2: @SecondFragment</p>
+
     <!-- A checkbox input that's bound to the IsActive property of the product. The checkbox is checked if the IsActive property is true -->
     Show Properties:
     <input type="checkbox" @bind-value="@Product.IsActive" checked="@(Product.IsActive ? "checked" : null)" />
@@ -28,6 +31,12 @@
     [Parameter]
     public Demo_Products Product { get; set; }
 
+
+    [Parameter]
+    public RenderFragment FirstFragment { get; set; }
+
+    [Parameter]
+    public RenderFragment SecondFragment { get; set; }
     [Parameter]
     public EventCallback<bool> OnFavoriteUpdated { get; set; }
 
