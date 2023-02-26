@@ -90,13 +90,18 @@
         IsLoading = false;
         StateHasChanged();
     }
-
+    //The "HandleDelete" method is called when the user initiates a delete operation. It sets the "DeleteCategoryId" property to the id of the category that is being deleted, and invokes the "ShowDeleteConfirmationModal"
+    //  JavaScript method to display a confirmation modal to the user.
     private void HandleDelete(int id)
     {
         DeleteCategoryId = id;
         _jsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
     }
-
+    //The "ConfirmDelete_Click" method is called when the user clicks the confirm button in the delete confirmation modal. 
+    // If the user confirms the delete operation and the "DeleteCategoryId" property is not 0, the category is
+    //  deleted using the "Delete" method of the "_categoryRepository" object, the categories are reloaded using 
+    // the "LoadCategories" method, and the "HideDeleteConfirmationModal" JavaScript method is invoked to hide the 
+    // confirmation modal. Finally, the "IsLoading" property is set to false.
     public async Task ConfirmDelete_Click(bool isConfirmed)
     {
         IsLoading = true;
