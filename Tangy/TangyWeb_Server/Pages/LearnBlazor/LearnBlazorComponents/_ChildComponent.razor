@@ -1,4 +1,4 @@
-﻿
+﻿@inject IJSRuntime _JsRuntime
 <div>
     <!-- Display an info message with the value of the Title parameter -->
     <div class="alert alert-info">@Title</div>
@@ -37,5 +37,11 @@
 
     [Parameter]
     public EventCallback OnButtonClick { get; set; } // The event to call when the button is clicked
+
+    public async Task ToastrSuccess()
+    {
+        //write method name in JS
+        await _JsRuntime.ToastrSuccess("success");
+    }
 }
 

@@ -2,7 +2,7 @@
 <h3>ParentComponent</h3>
 <CascadingValue Value="MessageForGrandChild" Name="message">
     <CascadingValue Value="LuckyNumber" Name="luckyNumber">
-<_ChildComponent OnButtonClick="ShowMessage" Title="Inherited from Parent Component" >
+        <_ChildComponent @ref="childComp" OnButtonClick="ShowMessage" Title="Inherited from Parent Component">
     
     <ChildContent>Render Fragment from parent component</ChildContent>
     <DangerChildContent>Danger Child Content</DangerChildContent>
@@ -13,8 +13,12 @@
 </CascadingValue>
 <_AnotherChildComponent InputAttributes="ParentInputAttributes"></_AnotherChildComponent>
 <p>@messageText</p>
-@code {
 
+<div class="row">
+    <button class="btn btn-success" @onclick="()=>childComp.ToastrSuccess()">Sweet Success</button>
+</div>
+@code {
+    private _ChildComponent childComp;
     [Parameter]
     public string MessageForGrandChild { get; set; } = "This message is from your child component (ParentComponent)";
 

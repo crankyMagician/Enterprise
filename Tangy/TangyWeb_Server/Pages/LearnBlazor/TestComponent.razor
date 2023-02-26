@@ -5,7 +5,12 @@
     <button class="btn btn-secondary" @onclick="TestConfirmBox">Test Confirm Button</button>
       <button class="btn btn-success" @onclick="ToastrSuccess">Toaster Success</button>
     <button class="btn btn-danger" @onclick="ToastrFailure">Toaster Failure</button>
+
+
+         <button class="btn btn-success" @onclick="SweetSuccess">Sweet Success</button>
+    <button class="btn btn-danger" @onclick="SweetFailure">Sweet Failure</button>
 </div>
+
 @code {
     private string ConfirmMessage = "Are you sure you want to click?";
     private bool ConfirmResult { get; set; }
@@ -25,5 +30,16 @@
     {
         //write method name in JS
         await _JsRuntime.ToastrError("error");
+    }
+   
+    private async Task SweetSuccess()
+    {
+        //write method name in JS
+        await _JsRuntime.InvokeVoidAsync("ShowSwal", "success", "Task completed successfully!");
+    }
+    private async Task SweetFailure()
+    {
+        //write method name in JS
+        await _JsRuntime.InvokeVoidAsync("ShowSwal", "error", "Task failed!");
     }
 }
