@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OZo8RlBeCDklcsA9C0EJbxV0FlYFxPQsrcKUPThm298=",
+  "Hash": "EuhgIMSUGlymx4gVgBHpcEj0vidl7P+L5GFFwvl6cY4=",
   "Source": "TangyWeb_Server",
   "BasePath": "_content/TangyWeb_Server",
   "Mode": "Default",
@@ -304,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\js\\common.js",
+      "SourceId": "TangyWeb_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\",
+      "BasePath": "_content/TangyWeb_Server",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     }
   ]
 }
