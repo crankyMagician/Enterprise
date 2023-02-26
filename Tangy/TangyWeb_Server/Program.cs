@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
+using Tangy_Business.Repository;
+using Tangy_Business.Repository.IRepository;
+using Tangy_DataAccess.Data;
 using TangyWeb_Server.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +13,19 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 
+//The AddScoped method registers the service as "scoped". This means that a
+//new instance of CategoryRepository will be created for each request to the service.
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+//ddb context 
+builder.Services.AddDbContext<ApplicationDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//add auto mapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

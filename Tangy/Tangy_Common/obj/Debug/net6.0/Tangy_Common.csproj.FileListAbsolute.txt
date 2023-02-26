@@ -1,0 +1,12 @@
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\bin\Debug\net6.0\Tangy_Common.deps.json
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\bin\Debug\net6.0\Tangy_Common.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\bin\Debug\net6.0\Tangy_Common.pdb
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.csproj.AssemblyReference.cache
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.AssemblyInfoInputs.cache
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.AssemblyInfo.cs
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.csproj.CoreCompileInputs.cache
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\refint\Tangy_Common.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\Tangy_Common.pdb
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Common\obj\Debug\net6.0\ref\Tangy_Common.dll
