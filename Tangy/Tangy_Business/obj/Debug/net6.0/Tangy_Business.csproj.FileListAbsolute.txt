@@ -10,3 +10,8 @@ C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\obj\Debug\net6.0\T
 C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\obj\Debug\net6.0\refint\Tangy_Business.dll
 C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\obj\Debug\net6.0\Tangy_Business.pdb
 C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\obj\Debug\net6.0\ref\Tangy_Business.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\bin\Debug\net6.0\Tangy_DataAccess.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\bin\Debug\net6.0\Tangy_Models.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\bin\Debug\net6.0\Tangy_DataAccess.pdb
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\bin\Debug\net6.0\Tangy_Models.pdb
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\Tangy_Business\obj\Debug\net6.0\Tangy_Business.csproj.CopyComplete
