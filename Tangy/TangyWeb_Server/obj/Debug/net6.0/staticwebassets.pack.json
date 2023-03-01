@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\images\\KSA_Flag.png",
+      "PackagePath": "staticwebassets\\images\\KSA_Flag.png"
+    },
+    {
       "Id": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\images\\loading.gif",
       "PackagePath": "staticwebassets\\images\\loading.gif"
     },

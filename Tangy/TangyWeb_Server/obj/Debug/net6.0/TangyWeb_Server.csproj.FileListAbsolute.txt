@@ -163,3 +163,8 @@ C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\obj\Debug\net6.0\
 C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\obj\Debug\net6.0\TangyWeb_Server.pdb
 C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\obj\Debug\net6.0\TangyWeb_Server.genruntimeconfig.cache
 C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\obj\Debug\net6.0\ref\TangyWeb_Server.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+C:\Users\brian\Desktop\Blazor\Enterprise\Tangy\TangyWeb_Server\bin\Debug\net6.0\System.IO.Pipelines.dll

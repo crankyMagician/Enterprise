@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7LeHBZW99c52vCGwagSLhmxKjdrBpBuBUdFQEV2dDgA=",
+  "Hash": "i+ici5f3jYiXOolrT4239PHCa0xXaCAuUkAOL9Q5Ao8=",
   "Source": "TangyWeb_Server",
   "BasePath": "_content/TangyWeb_Server",
   "Mode": "Default",
@@ -304,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\images\\KSA_Flag.png",
+      "SourceId": "TangyWeb_Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\",
+      "BasePath": "_content/TangyWeb_Server",
+      "RelativePath": "images/KSA_Flag.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\KSA_Flag.png"
     },
     {
       "Identity": "C:\\Users\\brian\\Desktop\\Blazor\\Enterprise\\Tangy\\TangyWeb_Server\\wwwroot\\images\\loading.gif",

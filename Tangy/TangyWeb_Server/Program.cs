@@ -23,6 +23,8 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 //add auto mapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+//signal R 
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 

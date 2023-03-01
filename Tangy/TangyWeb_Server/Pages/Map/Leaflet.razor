@@ -1,0 +1,60 @@
+﻿@page "/leaflet"
+@inject IJSRuntime JSRuntime
+<h3>Leafletrazor</h3>
+<div id="map"></div>
+
+
+<button class="btn btn-success" @onclick="()=>PlaceMarker(24.7136, 46.6753)">Place Marker</button>
+<button class="btn btn-danger" @onclick="()=>PlacePolygon(points)">Place Polygon</button>
+@code {
+
+    (double, double)[] points = new (double, double)[]
+    {
+        (24.7136, 46.6753),
+        (24.7138, 46.6759),
+        (24.7141, 46.6755)
+    };
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await  CreateMap();
+           
+        }
+
+    }
+    private async Task CreateMap()
+    {
+        //write method name in JS
+        await JSRuntime.CreateMap();
+        
+    }
+
+    private async Task PlaceMarker(double lat, double lon)
+    {
+        await JSRuntime.PlacePin(lat, lon);
+    }
+
+    private async Task PlacePolygon((double, double)[] points)
+    {
+        (double, double)[] _points = new (double, double)[]
+       {
+        (24.7136, 46.6753),
+        (24.7138, 46.6759),
+        (24.7141, 46.6755)
+       };
+
+        // Using Tuple class
+        Tuple<double, double>[] coordinates = new Tuple<double, double>[]
+        {
+    Tuple.Create(51.509, -0.08),
+    Tuple.Create(51.503, -0.06),
+    Tuple.Create(51.51, -0.047)
+        };
+
+        await JSRuntime.PlacePolygon(coordinates);
+    }
+
+
+}
